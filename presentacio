@@ -1,0 +1,34 @@
+Dilluns 17-19
+Dimecres 14-15 i 17-18
+on
+	Teoria Dilluns 17-18 i Dimecres 17-18
+	Problemes Dilluns 18-19
+	Laboratori 14-15
+
+Reabaluació agradable
+
+NO SE com s'abalua...
+
+Divendres enunciats pels Laboratoris
+
+
+Idea
+ La topologia ≡ Eines, mètodes
+
+Mini idea
+	Espais euclidians ⊆ Espais mètrics ⊆ Espais topològics
+
+
+\#
+Comparador controldador de la calculadora :)
+
+Mirar el strcmp de apple
+
+while ( *s1++ == *s2++ )
+	if ( *s1 == '\0' )
+	{
+		error ( s1, s2 );
+		return 0;
+	}
+	return (*s1) < (*s2): -1, 1;
+#/

@@ -1,0 +1,34 @@
+\Nick Distàncies / distància / d
+\Definicio Una distància en un conjunt
+	Sigui X un conjunt
+	Sigui d una aplicació
+		d: X * X -> 'R
+		( p, q ) |-> d ( p, q )
+		:
+			∀ p, q, r ∈ X
+			- d ( p, q ) ≥ 0
+			- d ( p, q ) = 0 ⇔ p = q
+# Notació: ( Simetria ) ≡ f ( x, y ) = f ( y, x ) ≡ ( Simetria ) f ( x, y ) = f ( y, x )
+			- ( Simetria ) d ( p, q ) = d ( q, p )
+			- ( Desigualtat triangular ) d ( p, r ) ≤ d ( p, q ) + d ( q, r )
+
+\Nick espai metric
+\Definicio Espai metric
+	Sigui X un conjunt
+	Sigui d una distància de X
+	≡ ( X, d )
+
+# Tu desideixes si veurels o no. Per defecte podem fer que sigui una cosa o altra
+\Exemple espai metric
+1
+	\Nick euclidià
+	Sigui x, y ∈ 'R²
+		x = ( x₀, x₁ )
+		y = ( y₀, y₁ )
+	d ( x, y ) = √ ( ( x₀ - y₀)² + ()² )
+	≡ ( 'R, d )
+2
+	\Nick màxim
+	Sigui x, y ∈ 'R
+	d ( x, y ) = màx { | x₀ - y₀ |, | x₁ - y₁ | }
+	≡ ( 'R, d )
